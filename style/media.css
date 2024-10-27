@@ -1,0 +1,46 @@
+@media (max-width: 768px){
+    .content {
+        padding: 40px 20px;
+    }
+
+    .infos h2{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 22px;
+        text-align: left;
+        margin-bottom: 16px;
+        display: flex;
+        margin-left: -35px;
+    }
+
+    .infos h2::before{
+        content: "";
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: linear-gradient(73.21deg, #187ac9 0%, #c5d6e3 100%);
+        margin-right: 10px;
+    }
+
+    .infos p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 15.4px;
+        text-align: left;
+        margin-bottom: 16px;
+    }
+    .content_img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .content_info{
+        padding-bottom: 40px;
+        border-left: 2px solid;
+        border-image: linear-gradient(to bottom, #187ac9 0%, #c5d6e3 1 100%);
+    }
+
+    .infos{
+        margin-left: 25px;
+    }
+}
